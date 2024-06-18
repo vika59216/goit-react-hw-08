@@ -1,0 +1,33 @@
+
+
+.personData {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.personName {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.personPhon {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+p {
+    margin: 5px;
+}
+
+.iconPerson {
+    padding-right: 5px;
+    color: #111;
+}
+
+.iconPhon {
+    padding-right: 5px;
+    color: #111;
+}
