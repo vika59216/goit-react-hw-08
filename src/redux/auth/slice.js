@@ -3,7 +3,6 @@ import { INITIAL_STATE } from "../contactsInitial";
 
 import { login, logout, refreshUser, register } from "./operations";
 
-
 const handlePending = (state) => {
     state.isLoading = true;
     state.isError = false;

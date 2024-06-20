@@ -1,6 +1,4 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-
-
 import { instance } from "../../service/api";
 
 export const setToken = (token) => {
